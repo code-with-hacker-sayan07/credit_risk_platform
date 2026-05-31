@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  credit-risk-platform:
+    build: .
+    container_name: credit_risk_platform_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    restart: unless-stopped

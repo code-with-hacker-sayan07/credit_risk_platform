@@ -1,0 +1,6 @@
+.csv filter=lfs diff=lfs merge=lfs -text
+data/Home_credit_dataset_files/application_train.csv filter=lfs diff=lfs merge=lfs -text
+data/Home_credit_dataset_files/bureau.csv filter=lfs diff=lfs merge=lfs -text
+data/Home_credit_dataset_files/previous_applications.csv filter=lfs diff=lfs merge=lfs -text
+data/Home_credit_dataset_files/previous_application.csv filter=lfs diff=lfs merge=lfs -text
+/*.csv filter=lfs diff=lfs merge=lfs -text
