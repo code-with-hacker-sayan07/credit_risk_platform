@@ -79,7 +79,7 @@ Follow these step-by-step instructions to set up a clean virtualized environment
 #### 1. Navigate to the Project Root
 Open your terminal (PowerShell, Command Prompt, or Bash) and navigate to the project directory:
 ```bash
-cd C:\Users\sayan\.gemini\antigravity-ide\scratch\credit_risk_platform
+cd C:\Users\sayan\OneDrive\Documents\NEO_STATS_USE_CASE\credit_risk_platform
 ```
 
 #### 2. Configure Environment Variables
