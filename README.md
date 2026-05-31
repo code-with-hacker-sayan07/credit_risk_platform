@@ -6,7 +6,7 @@ A self-contained, interactive, high-fidelity credit risk underwriting platform b
 
 ## Component Architecture Overview
 
-The system consists of five fully integrated layers coordinating key underwriting tasks:
+The system consists of five fully integrated layers coordinating key underwriting tasks:-
 
 ```mermaid
 graph TD
